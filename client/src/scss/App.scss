@@ -37,7 +37,9 @@
 }
 
 .home{
-    background-color: purple;
+    //background-color: rgb(130, 10, 209);
+    background: rgb(92,0,153);
+    background: linear-gradient(83deg, rgba(92,0,153,1) 48%, rgba(130,10,209,0.8802871490393032) 88%);
     display: flex;
     height: 32rem;
     padding-top:5rem;
@@ -65,4 +67,4 @@
         }
 
     }
-}
+} 
