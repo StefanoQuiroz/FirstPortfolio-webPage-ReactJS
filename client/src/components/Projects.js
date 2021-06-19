@@ -3,7 +3,7 @@ import PageHeader from './PageHeader';
 import github1 from '../images/github1.gif';
 import github2 from '../images/github2.gif';
 import covery from '../images/cover.jpg';
-import logoGit from '../images/github.svg'
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     const descriptionGitHub1 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur fuga provident error adipisci doloremque quos nihil corporis. Reiciendis, dolores facilis vitae maxime enim sequi nulla?"
@@ -13,7 +13,11 @@ const Projects = () => {
     const pHandler = (url) => (
         <div className="logoGit" onClick={e => window.open(url, "_blank").focus}
         >           
-            <img src={logoGit} alt="logoGit" />
+            <FaGithub 
+                color="white" 
+                size="3.5rem" 
+                style={{padding:"1%"}}
+            />
         </div>
     )
     const projectList = (url, img, description) => (
