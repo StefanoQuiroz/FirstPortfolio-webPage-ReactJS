@@ -44,6 +44,8 @@
     height: 32rem;
     padding-top:5rem;
     position:relative;
+    opacity: 0.9;
+
     .wrapperHome{
         margin: 2%;
         h1{
@@ -68,3 +70,60 @@
 
     }
 } 
+
+.wrapperPage{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2%;
+    h1{
+        font-weight:900;
+        font-size: 45px;
+        color: #fff;
+    }
+    hr{
+        position: absolute;
+        //top: 5px;
+        left: 0;
+        width: 124px;
+        border: 1px solid #5c0099;
+        //margin-top: 1rem;
+    }
+}
+
+.about{
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+    padding-bottom: 2rem;
+    .wrapperAbout{
+        display: flex;
+        .text{
+            width: 50%;
+            margin-left: 7%;
+            h2{
+                font-weight:900;
+                font-size: 45px;
+                color: #fff;
+                padding-bottom: 2rem;;
+            }
+            p{
+                font-weight: 500;
+                font-size: 21px;
+            }
+        }
+        .photo{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            .personalPhoto{
+                height: 25rem;
+                border-radius: 10%;
+                
+            }
+        }
+    }
+    
+
+}
