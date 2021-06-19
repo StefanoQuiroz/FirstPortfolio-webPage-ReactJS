@@ -7,7 +7,17 @@ const Skills = () => {
     const listBack = ["Back-end", "Express", "NodeJS"];
     const listFront = ["Front-end", "ReactJS", "Html", "Css", "Sass", "Less", "Aurelia", "Material-ui", "Bootstrap", "FramerMotion"];
     const dataBase = ["MongoDB", "Mongoose"];
-    
+    const fullStack = [listBack, listFront, dataBase];
+
+    const list = fullStack.map((items) => (
+        items.map((item, index) => (
+            <ul className="list">
+                <li key={index}>{item}</li>
+            </ul>
+        ))
+        
+    ))
+
     return (
         <div className="skills">
             <PageHeader title={"My skills"}/>
@@ -16,6 +26,7 @@ const Skills = () => {
                 <div className="picSkills">
                     <img className="picJS" src={javascriptTools} alt="javascript-tools" />
                 </div>
+                {list}
             </div>
         </div>
     )
