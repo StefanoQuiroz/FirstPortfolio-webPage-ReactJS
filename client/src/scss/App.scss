@@ -37,7 +37,7 @@
 }
 
 .home{
-    background-color: rgb(130, 10, 209);
+    background-color: #A332B3;
    /*  background: rgb(92,0,153);
     background: linear-gradient(83deg, rgba(92,0,153,1) 48%, rgba(130,10,209,0.8802871490393032) 88%); */
     display: flex;
@@ -169,4 +169,14 @@
             }
         }
     }
+}
+
+.projects{
+    background-color: black;
+    padding: 5% 0;
+}
+
+.contacts{
+    background-color: #141313;
+    padding: 5% 0;
 }

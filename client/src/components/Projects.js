@@ -1,9 +1,9 @@
 import React from 'react';
-
+import PageHeader from './PageHeader';
 const Projects = () => {
     return (
-        <div>
-            <h2>Project</h2>
+        <div className="projects">
+            <PageHeader title={"My Projects available"}/>
         </div>
     );
 }

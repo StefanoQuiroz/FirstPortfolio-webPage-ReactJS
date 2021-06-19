@@ -1,9 +1,9 @@
 import React from 'react';
-
+import PageHeader from './PageHeader';
 const Contact = () => {
     return (
-        <div>
-            <h2>Contact</h2>
+        <div className="contacts">
+            <PageHeader title={"Contacts"}/>
         </div>
     );
 }
