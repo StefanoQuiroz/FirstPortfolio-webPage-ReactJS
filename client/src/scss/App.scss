@@ -236,11 +236,7 @@
                         justify-content: center;
                         cursor: grab;
                         align-items: center;
-                        opacity: 0.8;
-                        img{
-                            padding-top: 5%;
-                            width: 10%;
-                        }                      
+                        opacity: 0.8;              
                     }
                 }
             }
@@ -251,6 +247,20 @@
 
 .contacts{
     background-color: #141313;
-    padding: 5% 0;
-
+    height: 15rem;
+    padding: 5% 0 0 0;
+    .contactsIcons{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        svg{
+            path{
+                cursor: pinter;
+            }
+        }
+    }
 }
+
+
+
+
