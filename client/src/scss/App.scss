@@ -39,7 +39,8 @@
 }
 
 .home{
-    background-color: #A332B3;
+    //background-color: #A332B3;
+    background-color: #000;
    /*  background: rgb(92,0,153);
     background: linear-gradient(83deg, rgba(92,0,153,1) 48%, rgba(130,10,209,0.8802871490393032) 88%); */
     display: flex;
@@ -173,7 +174,15 @@
 
 .projects{
     background-color: black;
-    padding: 5% 0;
+    padding: 5% 0 0 0;
+    position: relative;
+    .covery{
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        right: 0;
+        z-index: 0;
+    }
     .wrapperProjects{
         display: flex;
         flex-direction: column;
@@ -181,6 +190,7 @@
         //align-items: center;
         .projectText{
             width: 75%;
+            z-index: 1;
             p{
                 font-weight: 500;
                 font-size: 21px;
@@ -192,16 +202,19 @@
         }
         .listProjects{
             width: 95%;
+            z-index: 1;            
             .projectListWrapper{
                 display: flex;
-                background-color: #141313;
-                margin-top: 2%;
+                background-color: #141313;                margin-top: 2%;
                 width: 100%;
                 justify-content: center;
                 align-items: center;
+                border-radius: 11px;
+                box-shadow:  0 0 7px 4px #fff;
                 .github{
                     display:flex;
                     width: 110%;
+                    padding: 0 2%;
                     img{
                         //display: block;
                         //margin: 0 auto;
@@ -212,10 +225,22 @@
                 .projectListText{
                     width: 75%;
                     padding: 2%;
+                    //z-index: 1;
                     p{
                         font-weight: 500;
                         font-size: 21px;
                         color: #fff;
+                    }
+                    .logoGit{
+                        display: flex;
+                        justify-content: center;
+                        cursor: grab;
+                        align-items: center;
+                        opacity: 0.8;
+                        img{
+                            padding-top: 5%;
+                            width: 10%;
+                        }                      
                     }
                 }
             }
