@@ -12,7 +12,7 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
-    opacity: 0.9;
+    //opacity: 0.9;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -86,11 +86,9 @@
     }
     hr{
         position: absolute;
-        //top: 5px;
         left: 0;
         width: 124px;
         border: 1px solid #5c0099;
-        //margin-top: 1rem;
     }
 }
 
