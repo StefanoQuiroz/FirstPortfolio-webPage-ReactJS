@@ -1,6 +1,6 @@
 import React from 'react';
 import PageHeader from './PageHeader';
-import myPhoto from '../images/myPhoto.jpg';
+import myPhoto from '../images/myPhoto1.jpg';
 const About = () => {
     return (
         <div className="about">
