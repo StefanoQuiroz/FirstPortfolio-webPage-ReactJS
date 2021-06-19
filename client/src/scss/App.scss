@@ -19,8 +19,10 @@
     nav{
         ul{
             list-style: none;
+            display: flex;
+            justify-content: center;
             li{
-                display: inline-block;
+                flex-wrap:wrap;                
                 margin: 1.5rem;
                 a{
                     text-decoration: none;
