@@ -35,7 +35,7 @@ const Projects = () => {
         </div>
     );
     return (
-        <div className="projects">
+        <div className="projects" id="Projects">
             <img className="covery" src={covery} alt="covery" />
             <PageHeader title={"My Projects available"}/>
             <div className="wrapperProjects">

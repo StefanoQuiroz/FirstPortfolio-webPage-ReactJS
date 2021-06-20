@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const Contact = () => {
     const handleUrl = (url) => (()=> window.open(url, "_blank"))
     return (
-        <div className="contacts">
+        <div className="contacts" id="Contact">
             <PageHeader title={"Contact-Me"}/>
             <div className="contactsIcons">
                 <FaGithub 

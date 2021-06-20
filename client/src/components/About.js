@@ -3,7 +3,7 @@ import PageHeader from './PageHeader';
 import myPhoto from '../images/myPhoto1.jpg';
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="About-me">
             <PageHeader title={"About Me"}/>
             <div className="wrapperAbout">
                 <div className="text">

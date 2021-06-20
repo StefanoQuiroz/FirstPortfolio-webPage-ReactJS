@@ -4,7 +4,7 @@ import binary from '../images/binary.svg';
 
 const Home = () => {
     return (
-        <div className="home">
+        <div className="home" id="Home">
             <div className="wrapperHome">
                 <h1>Hello everyone!!</h1>
                 <h1>Welcome to my Website</h1>
