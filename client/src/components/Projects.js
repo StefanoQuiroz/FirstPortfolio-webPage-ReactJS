@@ -27,7 +27,7 @@ const Projects = () => {
             </div>
             <div className="projectListText">
                 <p>
-                    {description}
+                    {/* {description} */}
                     {pHandler(url)}
                 </p>
                 
@@ -41,7 +41,7 @@ const Projects = () => {
             <div className="wrapperProjects">
                 <div className="projectText">
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, perferendis voluptatum cupiditate maxime ipsa impedit. Dignissimos facere exercitationem, explicabo laudantium dolores sunt ut repellat tempore? Temporibus, accusamus consequatur praesentium provident tempora officiis reiciendis molestiae soluta esse maxime, cumque porro natus!
+                    Here you can see some of my projects that I have been doing since I started the bootcamp. Taking as reference projects and then modifying them and adding different functionalities giving them a personal touch.
                     </p>
                 </div>
                 <div className="listProjects">

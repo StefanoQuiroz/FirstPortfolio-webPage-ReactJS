@@ -8,7 +8,7 @@ const About = () => {
             <div className="wrapperAbout">
                 <div className="text">
                    <h2>Hello, my name is Stefano</h2>
-                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ullam cumque, labore at nostrum, praesentium dicta nesciunt consequatur, sunt maiores possimus libero blanditiis reprehenderit beatae? Eos quaerat nemo quisquam voluptatibus laudantium, odio itaque tempora alias quos animi ipsum molestiae, corrupti repellendus. Earum ullam numquam beatae dignissimos, maiores commodi vitae voluptatibus sint suscipit vel a consectetur reprehenderit omnis quos illo quo?</p> 
+                   <p>I am a full stack developer passionate about Java Script and its frameworks for creating super cool web sites. Web development has been my passion since I took the Coding Dojo bootcamp with MERN stack specialization. And since then I like to innovate in both front-end and back-end technologies. And I'm fluent in Spanish, Brazilian Portuguese (advanced level) and English (intermediate level). For those who want to realize their ideas through a web site.</p> 
                 </div>
                 <div className="photo">
                     <img className="personalPhoto" src={myPhoto} alt="myphoto" />
