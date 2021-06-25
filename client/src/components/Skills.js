@@ -13,8 +13,8 @@ const Skills = () => {
 
     const list = fullStack.map((items, index) => (
             <ul key={index}>
-                {items.map((item) => (
-                    <li>{item}</li>
+                {items.map((item, index) => (
+                    <li key={index}>{item}</li>
                 ))}
             </ul>
     ))

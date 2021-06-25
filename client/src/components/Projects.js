@@ -26,10 +26,10 @@ const Projects = () => {
                 <img src={img} alt="img" />
             </div>
             <div className="projectListText">
-                <p>
+                <div>
                     {/* {description} */}
                     {pHandler(url)}
-                </p>
+                </div>
                 
             </div>
         </div>
