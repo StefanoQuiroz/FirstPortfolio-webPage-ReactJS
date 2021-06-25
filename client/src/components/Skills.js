@@ -24,7 +24,7 @@ const Skills = () => {
     return (
         <div className="skills" id="Skills"> 
             <PageHeader title={"My skills"}/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum explicabo architecto nulla. Nihil eligendi consequuntur quia, suscipit accusamus quaerat cumque non perspiciatis aut, adipisci officia dolore, at ab! Voluptas molestias impedit pariatur voluptatem doloribus illum aliquid nihil eveniet molestiae quis temporibus mollitia libero non et, ducimus iste inventore praesentium amet, nesciunt esse officiis. Quis commodi exercitationem placeat pariatur sequi ipsum dignissimos hic esse molestiae voluptate.</p>
+            <p>I have a wide knowledge in front-end, back-end, server and other technologies as you can see below. All with the aim of ensuring the best user experience.</p>
             <div className="wrapperSkills">
                 <img className="picJS" src={javascriptTools} alt="javascript-tools" />
                 <div className="list">
