@@ -9,7 +9,7 @@ Instrucciones
 3. Para ejecutar el servidor: npm run start
 ```
 
-# Portfolio versão:
+# Portfolio versão: 1.0.0
 
 Primeira versão do portfolio personalizado utilizando ReactJS na parte do Front-end, NodeJS-Express-MongoDB no backend e no desployment utilizando o AWS.
 
